@@ -1,6 +1,6 @@
 # Object Tracking in Highways with Opencv and Python
 
-Object tracking: It does frame-by-frame tracking but keeps the history of where the object is at a time after time
+Object tracking: It does frame-by-frame tracking but keeps the history of where the object is at a time after time.
 
 ## Steps:
 
