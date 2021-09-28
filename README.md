@@ -2,20 +2,20 @@
 
 Object tracking: It does frame-by-frame tracking but keeps the history of where the object is at a time after time
 
-Steps:
+## Steps:
 
--  creation of a mask in highway.mp4 file
+-  Creation of a mask in highway.mp4 file
 
 ![image](https://user-images.githubusercontent.com/44448083/135055887-5816552e-b2b0-4c81-a20b-d08bed6c2970.png)
 
-- focusing the attention on objects that are larger than a certain area
+- Focusing the attention on objects that are larger than a certain area
 
 - Drawing the contours with OpenCV’s cv2.drawContours function
 
 ![image](https://user-images.githubusercontent.com/44448083/135056094-a80e4626-c8c1-4fb4-b424-3132426a627e.png)
 
 
-- defining a region of interest ROI and apply the mask only in this area
+- Defining a region of interest ROI and apply the mask only in this area
 
 ![image](https://user-images.githubusercontent.com/44448083/135056316-b9ee9c65-fbd4-4a7f-97b7-c5043bc5b120.png)
 
